@@ -1,6 +1,8 @@
 @import "style1.css";
 @import "style2.css";
+@import "style3.css";
 @import "icons.css";
+
 
 body {
     width: auto;
@@ -40,8 +42,11 @@ body {
 .nav {
     grid-area: nav;
     display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 50px;
+    height: 40px;
     margin: 0%;
     padding: 0%;
     background-color: #448d76;
@@ -56,20 +61,21 @@ body {
     height: 100%;
     align-items: center;
     justify-content: center;
-    color: #fba90a;
+    color: #9a0794;
     font-size: 20px;
     font-weight: lighter;
 }
 
 .navitem {
-    margin: 0px 30px;
+    margin: 0px 20px;
+    color: #fba90a;
 }
 
 .nav_link:hover {
     background-color: #9a0794;
-    font-weight: bolder;
-    padding: 10px;
-    margin: 40px;
+    font-weight:600;
+    padding: 9px;
+    margin: 10px 30px;
     color: #fba90a;
 }
 
