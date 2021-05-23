@@ -16,7 +16,7 @@ body {
     /* width: auto; */
     display: grid;
     grid-template-columns: 20% 80%;
-    grid-template-rows: auto 400px 100px auto auto 100px;
+    grid-template-rows: auto 350px 80px auto auto 100px;
     grid-template-areas:
         "nav nav"
         "img img"
