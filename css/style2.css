@@ -13,15 +13,30 @@
 .div-1 {
   width: 98%;
   height: 50%;
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: center;
+  display: block;
+}
+
+@media (min-width: 650px) {
+  .div-1 {
+      width: 98%;
+      height: 50%;
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+  .art {
+      width: 49%;
+      padding: 10px;
+      margin: 10px;
+      justify-content: center;
+  }
 }
 
 .art {
-  width: 49%;
+  width: 90%;
   padding: 10px;
   margin: 10px;
   justify-content: center;
@@ -82,13 +97,13 @@
 
 /* footer p
 {
-  margin: 35px 10px 0px 0px;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  font-size: 30px;
+margin: 35px 10px 0px 0px;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+font-size: 30px;
 } */
 
 /* footer img
 {
-  margin: 30px 0px 0px 20px;
+margin: 30px 0px 0px 20px;
 } */

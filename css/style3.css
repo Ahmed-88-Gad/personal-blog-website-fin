@@ -5,12 +5,24 @@
 
 .gallery {
   width: 100%;
-  display: grid;
+  display: block;
   gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 275px 275px 275px;
   margin: 10px auto 20px;
   max-width: 186vh;
+}
+
+@media (min-width: 700px) {
+  .gallery {
+      width: 100%;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 275px 275px 275px;
+      margin: 10px auto 20px;
+      max-width: 186vh;
+  }
 }
 
 .gallery img {
